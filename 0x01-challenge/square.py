@@ -2,7 +2,7 @@
 """ Initialize module """
 
 
-class square():
+class Square():
     """ Defines a class Square """
     width = 0
     height = 0
@@ -27,7 +27,7 @@ class square():
 
 if __name__ == "__main__":
     """ Prevent execution of above code when importing """
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_square())
